@@ -60,6 +60,6 @@ namespace PropertyRentalAPI.Models
         [ForeignKey("User")]
         public int UserId { get; set; }
 
-        public User User { get; set; }
+        public IUser User { get; set; }
     }
 }

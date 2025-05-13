@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PropertyRentalAPI.Models
 {
-    public class User
+    public class IUser
     {
         [Key]
         public int Id { get; set; }

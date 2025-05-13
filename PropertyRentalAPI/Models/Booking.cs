@@ -39,6 +39,6 @@ namespace PropertyRentalAPI.Models
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
 
         public Property Property { get; set; }
-        public User User { get; set; }
+        public IUser User { get; set; }
     }
 }

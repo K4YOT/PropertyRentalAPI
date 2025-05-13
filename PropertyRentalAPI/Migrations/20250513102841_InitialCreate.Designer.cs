@@ -12,7 +12,7 @@ using PropertyRentalAPI.Models;
 namespace PropertyRentalAPI.Migrations
 {
     [DbContext(typeof(PropertyRentalContext))]
-    [Migration("20250513084323_InitialCreate")]
+    [Migration("20250513102841_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
